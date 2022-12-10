@@ -1,0 +1,167 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+    background-color: white;
+    box-shadow: 6px 10px 28px 0px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    height: auto;
+    background-color: #3a637f;
+    color: white;
+}
+
+.header {
+    height: auto;
+    text-align: center;
+}
+
+.header h1,
+h2 {
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: #f9f96f;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.header h2 {
+    padding-top: 0px !important;
+    font-size: 20px !important;
+    letter-spacing: 25px;
+    font-weight: 100;
+}
+
+.header hr {
+    border: 1px solid white;
+    background-color: white;
+    width: 95%;
+    margin: 20px 20px;
+}
+
+.container_16 {
+    max-width: auto;
+    width: 95%;
+    margin: 30px auto;
+}
+
+.container_16 .grid_16 {
+    width: 98.0%;
+}
+
+.container_16 .grid_8 {
+    width: 35.0%;
+    margin-right: 30px;
+}
+
+.container_16 .grid_8 h3 {
+    text-transform: uppercase;
+    color: #f9f96f;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.container_16 .grid_8 ul {
+    padding-left: 0px;
+}
+
+.container_16 .grid_8 ul i {
+    font-size: 20px;
+    font-weight: 900;
+    color: #f9f96f;
+}
+
+span {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.margin-top {
+    margin-top: 15%;
+}
+
+.margin-left {
+    margin-left: 10%;
+}
+
+.skills_item .right input {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-right: 3px;
+}
+
+input:checked+label {
+    background: #f9f96f;
+}
+
+.left,
+.right {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.left {
+    width: 50%;
+}
+
+.vert-hr {
+    position: relative;
+}
+
+.vert-hr:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    bottom: 6px;
+    margin-left: 9px;
+    border-left: 2px solid white;
+}
+
+.title-dot {
+    margin-left: 5px;
+    font-size: 12px;
+    z-index: 99;
+    color: #f9f96f;
+    vertical-align: middle;
+}
+
+.title-dot:last-child {
+    font-size: 0.3em;
+}
+
+h5 {
+    letter-spacing: 1px;
+    font-weight: bolder;   
+    font-size: 16px;
+}
+
+h6 {
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    letter-spacing: 5px;
+}
+
+.vert-hr p {
+    margin-left: 20px;
+}
